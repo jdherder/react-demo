@@ -6,9 +6,11 @@ import logo from './logo.svg';
 import 'antd/dist/antd.css';
 import './App.css';
 
+const color = '#00d8ff';
+
 const StyledBadge = styled(Badge)`
     .ant-badge-count {
-        background-color: #00d8ff;
+        background-color: ${color};
         color: black;
         box-shadow: 0 0 0 1px #d9d9d9 inset;
     }
@@ -17,7 +19,7 @@ const StyledBadge = styled(Badge)`
 const Title = styled.h1`
   font-size: 1.75rem;
   text-align: center;
-  color: #00d8ff;
+  color: ${color};
 `;
 
 const App: React.FC = () => {
