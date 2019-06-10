@@ -1,6 +1,6 @@
 import React from 'react';
 import { DatePicker } from 'antd';
-import { DatePickerProps } from '../../node_modules/antd/lib/date-picker/interface';
+import { DatePickerProps } from 'antd/lib/date-picker/interface';
 import styled, { createGlobalStyle } from 'styled-components';
 
 export { CustomDatePicker };
